@@ -1,0 +1,26 @@
+{
+    "name": "bryanthw1020/chuck-norris-jokes",
+    "description": "Create random Chuck Norris jokes.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Bryan Tan",
+            "email": "bryantanhw@gmail.com"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "^9.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "bryanthw1020\\ChuckNorrisJokes\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "bryanthw1020\\ChuckNorrisJokes\\Tests\\": "tests"
+        }
+    }
+}

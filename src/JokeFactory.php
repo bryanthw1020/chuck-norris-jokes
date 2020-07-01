@@ -5,9 +5,9 @@ namespace bryanthw1020\ChuckNorrisJokes;
 class JokeFactory
 {
     protected $jokes = [
-        "The First rule of Chuck Norris is: you do not talk about Chuck Norris.",
-        "Testing joke bruhhhh.",
-        "Chuck Norris' tears cure cancer. Too bad he has never cried."
+        'The First rule of Chuck Norris is: you do not talk about Chuck Norris.',
+        'Testing joke bruhhhh.',
+        "Chuck Norris' tears cure cancer. Too bad he has never cried.",
     ];
 
     public function __construct(array $jokes = null)
